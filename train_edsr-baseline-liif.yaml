@@ -1,0 +1,22 @@
+
+optimizer:
+  name: adam
+  args:
+    lr: 1.e-4
+d_optimizer:
+  name: adam
+  args:
+    lr: 1.e-6 
+epoch_max: 1000
+multi_step_lr:
+  milestones: [200, 400, 600, 800]
+  gamma: 0.5
+
+epoch_val: 1
+epoch_save: 100
+
+batch_size: 4
+
+
+data: "new_skull_stripped.json"
+
