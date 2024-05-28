@@ -1,5 +1,5 @@
 # Knee-MRI-Super-resolution
-Easy training and test code for implementing MRI super-resolution. The model is based on [SA-INR](https://github.com/XinWang-99/SA-INR). A model trained on public knee dataset is also included in this repo, which can be directly used for inference.
+A simple implementation of 3D LIIF (https://github.com/yinboc/liif) for MRI super-resolution. A checkpoint trained on public knee dataset is also included in this repo, which can be directly used for inference.
 
 ## Dataset Class
 
